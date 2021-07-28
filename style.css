@@ -22,7 +22,7 @@ body {
 }
 
 .sect--violet {
-  background-image: linear-gradient(black, grey);
+  background-image: linear-gradient(black, blue);
 }
 
 .sect--padding-bottom {
@@ -107,13 +107,13 @@ body {
   margin-bottom: 4px;
 }
 
-.price-box__people {
+.price-box__credit {
   font-size: 12px;
   color: #8198ae;
   font-weight: 300;
   letter-spacing: 1px;
 }
-.price-box__discount {
+.price-box__subname {
   font-size: 28px;
   font-weight: 700;
   margin-top: 20px;
@@ -238,7 +238,13 @@ body {
 .btn--white {
   background-color: #fff;
   border: 1px solid #ededed;
-  color: #8198ae;
+  color: #000;
+}
+
+.btn--black {
+  background-color: #000;
+  border: 1px solid #ededed;
+  color: #fff;
 }
 
 .btn--white:hover {
@@ -454,7 +460,7 @@ body {
 }
 
 .header__link {
-  color: #1f4568;
+  color: #fff;
   font-size: 14px;
 }
 .header__link:hover {
@@ -638,7 +644,7 @@ body {
 }
 
 .footer {
-  background-color: #1f4467;
+  background-color: #000;
   padding: 40px 0;
 }
 
@@ -822,11 +828,11 @@ body {
   .price-box__wrap {
     padding: 20px 20px 30px 20px;
   }
-  .price-box__people {
+  .price-box__credit {
     font-size: 10px;
     font-weight: 400;
   }
-  .price-box__discount {
+  .price-box__subname {
     font-size: 22px;
   }
   .price-box__price {
