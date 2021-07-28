@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i");
+@import url("https://fonts.googleapis.com/css2?family=Armata&family=Qahiri&display=swap");
 
 html,
 body {
   margin: 0;
   padding: 0;
-  font-family: "Lato", sans-serif;
+  font-family: "Armata", sans-serif;
   color: #FFF;
 }
 
@@ -21,7 +21,7 @@ body {
   display: block;
 }
 
-.sect--violet {
+.sect--about {
   background-image: linear-gradient(black, blue);
 }
 
@@ -33,9 +33,6 @@ body {
   padding-top: 45px;
 }
 
-.sect--white {
-  /* background-color:#fff;*/
-}
 .row--center {
   max-width: 1000px;
   margin: 0 auto;
@@ -114,7 +111,7 @@ body {
   letter-spacing: 1px;
 }
 .price-box__subname {
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 0;
@@ -198,7 +195,7 @@ body {
 
 .btn--revert {
   background-color: transparent;
-  color: #8198ae;
+  color: #3a9fff;
   box-shadow: none;
   border: 1px solid #c9d9e9;
 }
@@ -319,8 +316,8 @@ body {
 .carousel-indicators li.active {
   height: 14px;
   width: 14px;
-  background-color: #fff;
-  border: 3px solid #6f79ff;
+  background-color: #000;
+  border: 3px solid #3a9fff;
   margin-right: 10px;
 }
 .item {
@@ -348,7 +345,7 @@ body {
 }
 .item__description {
   margin-top: 35px;
-  color: #8198ae;
+  color: #3a9fff;
   line-height: 23px;
 }
 .item__avatar {
@@ -392,7 +389,7 @@ body {
 
 .item__occupation {
   font-size: 14px;
-  color: #8198ae;
+  color: #3a9fff;
   text-align: center;
 }
 
@@ -407,7 +404,7 @@ body {
 
 .site__subtitle {
   font-size: 22px;
-  color: #8198ae;
+  color: #3a9fff;
   margin: 15px 0 40px 0;
   text-align: center;
 }
@@ -450,8 +447,9 @@ body {
   vertical-align: middle;
 }
 .header__title {
+  font-family: "Qahiri", sans-serif;
   color: #fff;
-  font-size: 25px;
+  font-size: 45px;
   margin: 0;
   margin-left: 10px;
   display: inline-block;
@@ -520,22 +518,25 @@ body {
 }
 
 .article-pre__title {
-  font-size: 20px;
-  color: #1f4568;
+  font-size: 16px;
+  color: #3a9fff;
   margin: 0;
   padding: 15px 25px;
 }
 
 .article-pre__arrow--purple {
-  color: #8a3aff;
+  color: #fff;
 }
 
 .contacts_title-ag {
+  font-family: "Qahiri", sans-serif;
+  color: #3a9fff;
+
   margin: 0;
   margin-left: 0px;
   display: inline-block;
   vertical-align: middle;
-  font-size: 22px;
+  font-size: 38px;
   margin-left: 10px;
 }
 
@@ -568,7 +569,7 @@ body {
   margin-bottom: 2px;
 }
 .contacts__info-link {
-  color: #3a9fff;
+  color: #06427a;
   text-decoration: none;
 }
 
@@ -649,7 +650,8 @@ body {
 }
 
 .footer__title {
-  font-size: 18px;
+  font-family: "Qahiri", sans-serif;
+  font-size: 38px;
   margin: 0;
   margin-left: 0px;
   margin-left: 10px;
